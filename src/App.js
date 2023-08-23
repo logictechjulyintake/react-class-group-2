@@ -1,10 +1,10 @@
-import Input from "./components/Input";
-import UseRefEg from "./components/UseRefEg";
+import FetchAPIEg from "./components/FetchAPIEg";
 
 function App() {
   return <>
-    <Input />
-    <UseRefEg />
+
+    <FetchAPIEg />
+
   </>
 }
 
