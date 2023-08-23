@@ -1,11 +1,10 @@
-import Button from "./Button";
-import Input from "./Input";
-import MyButton from "./MyButton";
-import MyForm from "./MyForm";
+import Input from "./components/Input";
+import UseRefEg from "./components/UseRefEg";
 
 function App() {
   return <>
-    <MyForm />
+    <Input />
+    <UseRefEg />
   </>
 }
 
