@@ -7,7 +7,9 @@ function FetchAPIEg() {
 
     async function getRandomUser() {
         userInfoRef.current.innerText = 'Loading...'
-        const response = await fetch('https://randomuser.me/api/');
+        const response = await fetch('https://randomuser.me/api/', {
+            method: "GET"
+        });
         const responseJson = await response.json();
         const userInfo = responseJson.results[0]
         // console.log(userInfo)

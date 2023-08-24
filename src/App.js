@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import FetchAPIEg from "./components/FetchAPIEg";
+import FetchAPIEgTwo from "./components/FetchAPIEgTwo";
+import Post from "./components/Post";
 
 function App() {
+
   return <>
 
-    <FetchAPIEg />
+    <FetchAPIEgTwo />
 
   </>
 }
