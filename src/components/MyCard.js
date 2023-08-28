@@ -26,7 +26,7 @@ function MyCard() {
             eius enim impedit excepturi recusandae voluptatum possimus
             cupiditate. Ullam sit provident labore laudantium nulla aspernat
           </p>
-          <img src={Sandesh} alt="ktko photo" height={140} width={140} />
+          <img src={Sandesh} alt="ktko photo" className="object-cover" width="100px" />
         </div>
 
         <input
