@@ -7,8 +7,7 @@ import MyCard from "./components/MyCard";
 function App() {
   return (
     <>
-      {/* <FetchAPIEgTwo /> */}
-      <MyCard />
+      <FetchAPIEgTwo />
     </>
   );
 }

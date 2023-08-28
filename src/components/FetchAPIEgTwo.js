@@ -7,7 +7,7 @@ function FetchAPIEgTwo() {
 
     useEffect(function () {
         async function getAllPosts() {
-            const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+            const response = await fetch(`${process.env.REACT_APP_POSTS_API_BASE_URL}/posts`, {
                 method: "GET"
             });
             const responseJson = await response.json();
