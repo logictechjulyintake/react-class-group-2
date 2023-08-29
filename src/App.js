@@ -1,13 +1,19 @@
-import { useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FetchAPIEg from "./components/FetchAPIEg";
-import FetchAPIEgTwo from "./components/FetchAPIEgTwo";
-import Post from "./components/Post";
-import MyCard from "./components/MyCard";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-      <FetchAPIEgTwo />
+      {/* <FetchAPIEgTwo /> */}
+
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/posts" element={<FetchAPIEg />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }
