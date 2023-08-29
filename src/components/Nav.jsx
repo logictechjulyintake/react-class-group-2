@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 function Home() {
     return <>
         <div className='flex'>
+            <Link to="/" >
+                <MyButton name="Home" />
+            </Link>
             <Link to="/posts" >
                 <MyButton name="Fetch API Example" />
             </Link>

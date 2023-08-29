@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import MyButton from "./MyButton";
 
 function FetchAPIEg() {
 
@@ -18,10 +19,12 @@ function FetchAPIEg() {
     }
 
     return <>
-        <button onClick={getRandomUser}>Load Random User</button>
+        <MyButton name="Load Random User" onClick={getRandomUser} />
 
-        <p ref={userInfoRef}></p>
-        <img src={null} ref={userInfoImgRef} height={200} />
+        <div className="bg-slate-200 p-4">
+            <p className="font-bold mb-2" ref={userInfoRef}></p>
+            <img className="rounded-sm" src={null} ref={userInfoImgRef} height={200} />
+        </div>
 
     </>
 }

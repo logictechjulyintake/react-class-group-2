@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FetchAPIEg from "./components/FetchAPIEg";
-import Home from "./components/Nav";
+import Home from "./components/Home";
 import MyForm from "./components/MyForm";
 import FetchAPIEgTwo from "./components/FetchAPIEgTwo";
 import MapExample from "./components/MapExample";
