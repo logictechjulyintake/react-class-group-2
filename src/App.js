@@ -7,6 +7,7 @@ import MapExample from "./components/MapExample";
 import MyCard from "./components/MyCard";
 import Layout from "./components/Layout";
 import { UserContextProvider } from "./contexts/UserContext";
+import Responsive from "./components/Responsive";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/featch" element={<FetchAPIEgTwo />} />
               <Route path="/Map" element={<MapExample />} />
               <Route path="/card" element={<MyCard />} />
+              <Route path="/responsive" element={<Responsive />} />
             </Route>
           </Routes>
         </BrowserRouter>

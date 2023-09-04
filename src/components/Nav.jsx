@@ -23,6 +23,9 @@ function Home() {
             <Link to="/card" >
                 <MyButton name="MY CARD" />
             </Link>
+            <Link to="/responsive" >
+                <MyButton name="Responsive Example" />
+            </Link>
         </div>
     </>
 }
